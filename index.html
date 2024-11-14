@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Profile Section -->
+    <div class="profile">
+      <img src="lani.jpg.png" alt="Profile Image" class="profile-img" />
+      <h1>Nancy Lani Manaerah</h1>
+      <p class="job-title">Mahasiswa | Labor | Content Creator</p>
+    </div>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <h2>About Me</h2>
+      <p>
+        Saya adalah anak ke 2 dari 2 bersaudarah dan saya lahir dari keluarga
+        yang sederhana,saya datang di tempat ini untuk menggapai cita-cita dan
+        untuk memberikan nama terbaik untuk kedua orang tua saya.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Memasak</li>
+        <li>Olaraga</li>
+        <li>Makan</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project One</h3>
+        <p>Description of the project goes here.</p>
+      </div>
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>Description of the project goes here.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <form onsubmit="sendMessage(event)">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
